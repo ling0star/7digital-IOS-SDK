@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
 
   s.preserve_path = 'StaticLib/*.a'
-  s.ios.vendored_library = 'libSevenDigital.a'
+  s.ios.vendored_library = 'StaticLib/libSevenDigital.a'
 
 
   #  A list of resources included with the Pod. These are copied into the
