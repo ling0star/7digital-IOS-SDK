@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "SevenDigital"
   s.version      = "0.0.1"
-  s.summary      = "Seven Digital's iOS ."
+  s.summary      = "7Digital's iOS SDK for the api's."
 
   s.description  = <<-DESC
-                   A longer description of SevenDigital in Markdown format.
+                   A longer description of 7Digital in Markdown format.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/SevenDigital"
+  s.homepage     = "http://developer.7digital.com/resources/api-docs/"
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = 'MIT (example)'
+  s.license      = 'MIT'
   # s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
 
 
@@ -51,8 +51,8 @@ Pod::Spec.new do |s|
   #
 
   #s.author             = { "Ryan Smale" => "eagle14@gmail.com" }
-  # s.authors          = { "Ryan Smale" => "eagle14@gmail.com", "other author" => "email@address.com" }
-  #s.author           = 'Ryan Smale', 'other author'
+   s.authors          = { "first Authour" => "email@adress.com", "other author" => "email@address.com" }
+  #s.author           = '7Digital'
   # s.social_media_url = "http://twitter.com/Ryan Smale"
 
   # ??? Platform Specifics ??????????????????????????????????????????????????????? #
@@ -69,13 +69,9 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
 
 
-  # ??? Source Location ?????????????????????????????????????????????????????????? #
-  #
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
-  #
-
-  s.source       = { :git => "https://github.com/mmmbiscuits/7Digital-IOS-API.git" }
+  s.source       = { :git => "https://github.com/mmmbiscuits/7Digital-IOS-API.git" , :tag => 'v0.0.1' }
 
 
   # ??? Source Code ?????????????????????????????????????????????????????????????? #
@@ -90,8 +86,6 @@ Pod::Spec.new do |s|
   s.exclude_files = 'Classes/Exclude'
 
   s.public_header_files = 'Classes/**/*.h'
-  #can also make private headers...
-
 
   # ??? Resources ???????????????????????????????????????????????????????????????? #
   #
