@@ -25,9 +25,8 @@ Pod::Spec.new do |s|
   s.exclude_files = 'Classes/Exclude'
   s.public_header_files = 'Classes/**/*.h'
 
+  #s.preserve_path = 'StaticLib/*.a'
   s.ios.vendored_library = 'libSevenDigital.a'
-  #s.preserve_path = 'libSevenDigital.a'
-  #s.preserve_paths = '*'
 
 
   #  A list of resources included with the Pod. These are copied into the
@@ -45,5 +44,7 @@ Pod::Spec.new do |s|
    s.requires_arc = true
 
    s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' , 'OTHER_LINKER_FLAGS' => '-ObjC'}
+  # s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFlightSDK"' }
+
 
 end
