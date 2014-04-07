@@ -16,14 +16,11 @@ Pod::Spec.new do |s|
   s.homepage     = "http://developer.7digital.com/resources/api-docs/"
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
-
   s.license      = 'MIT'
   s.author             = { "7Digital" => "eagle14@gmail.com" }
 
   s.platform     = :ios, '7.0'
-
   s.source       = { :git => "https://github.com/mmmbiscuits/7Digital-IOS-API.git" , :tag => 'v0.0.1' }
-
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
   s.exclude_files = 'Classes/Exclude'
   s.public_header_files = 'Classes/**/*.h'
@@ -32,7 +29,7 @@ Pod::Spec.new do |s|
   #  target bundle with a build phase script. Anything else will be cleaned.
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
-  # s.resource  = "icon.png"
+ 	s.resource  = "libSevenDigital.a"
   # s.resources = "Resources/*.png"
 
   s.preserve_paths = 'libSevenDigital.a'
