@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.exclude_files = 'Classes/Exclude'
   s.public_header_files = 'Classes/**/*.h'
 
-  #s.preserve_path = 'StaticLib/*.a'
+  s.preserve_path = 'StaticLib/*.a'
   s.ios.vendored_library = 'libSevenDigital.a'
 
 
