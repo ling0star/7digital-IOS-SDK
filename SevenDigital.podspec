@@ -26,6 +26,8 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
 
   s.preserve_path = 'libSevenDigital.a'
+  s.preserve_paths = '*'
+
 
   #  A list of resources included with the Pod. These are copied into the
   #  target bundle with a build phase script. Anything else will be cleaned.
