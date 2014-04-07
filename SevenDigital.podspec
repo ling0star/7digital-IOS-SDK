@@ -5,19 +5,16 @@ Pod::Spec.new do |s|
   s.summary      = "7Digital's iOS SDK for the api's."
 
   s.description  = <<-DESC
-                   A longer description of 7Digital in Markdown format.
+                   The 7Digital iOS SDK helps you get up and running with a project that uses the 7Digital api's.
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   * User login and handles OAuth for you.
+                   * Conveniently returns tracks and releases as objects rather than nested dictionaries.
                    DESC
 
   s.homepage     = "http://developer.7digital.com/resources/api-docs/"
-  # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
   s.license      = 'MIT'
-  s.author             = { "7Digital" => "eagle14@gmail.com" }
+  s.author             = { "7Digital" => "support@7digital.com" }
 
   s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/mmmbiscuits/7Digital-IOS-API.git" , :tag => 'v0.0.1' }
@@ -27,15 +24,6 @@ Pod::Spec.new do |s|
 
   s.preserve_path = 'StaticLib/*.a'
   s.ios.vendored_library = 'StaticLib/libSevenDigital.a'
-
-
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #	s.resource  = "libSevenDigital.a"
-  # s.resources = "Resources/*.png"
-
 
   # s.framework  = 'SevenDigital' #commented out till include works?
 
