@@ -25,14 +25,15 @@ Pod::Spec.new do |s|
   s.exclude_files = 'Classes/Exclude'
   s.public_header_files = 'Classes/**/*.h'
 
+  s.preserve_path = 'libSevenDigital.a'
+
   #  A list of resources included with the Pod. These are copied into the
   #  target bundle with a build phase script. Anything else will be cleaned.
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
- 	s.resource  = "libSevenDigital.a"
+  #	s.resource  = "libSevenDigital.a"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = 'libSevenDigital.a'
 
   # s.framework  = 'SevenDigital' #commented out till include works?
 
