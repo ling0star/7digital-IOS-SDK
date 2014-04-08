@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://developer.7digital.com/resources/api-docs/"
 
   s.license      = 'Apache'
-  s.author             = { "7digital" => "support@7digital.com" }
+  s.author       = { "7digital" => "support@7digital.com" }
 
   s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/mmmbiscuits/7digital-IOS-API.git" , :tag => 'v0.0.1' }
