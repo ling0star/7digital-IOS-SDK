@@ -53,7 +53,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-7 Digital, support@7digital.com
+7digital, support@7digital.com
 
 ## License
 
