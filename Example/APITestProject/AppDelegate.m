@@ -15,7 +15,8 @@
 {
     // Override point for customization after application launch.
     
-    [SevenDigital initializeWithConsumerKey:@"[Your Consumer Key]" andSecret:@"[Your Secret]"];
+#error You need to insert your Consumer Key and Your Secret, You can get one at http://access.7digital.com/partnerprogram
+    [SevenDigital initializeWithConsumerKey:@"<#Your Consumer Key#>" andSecret:@"<#Your Secret#>"];
 
     
     return YES;
