@@ -1,4 +1,5 @@
-pod "SevenDigital", :path => "../"
+pod "SevenDigital", :path => "../SevenDigital.podspec"
+
 
 target "Demo" do
 end
