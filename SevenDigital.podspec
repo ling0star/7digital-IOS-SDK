@@ -2,13 +2,15 @@ Pod::Spec.new do |s|
 
   s.name         = "SevenDigital"
   s.version      = "0.0.1"
-  s.summary      = "7digital's iOS SDK for the api's."
+  s.summary      = "The 7digital iOS SDK helps you use the 7digital API's."
 
   s.description  = <<-DESC
-                   The 7digital iOS SDK helps you get up and running with a project that uses the 7digital api's.
+                   The 7digital iOS SDK helps you get up and running with a project that uses the 7digital API's.
 
-                   * User login and handles OAuth for you.
-                   * Conveniently returns tracks and releases as objects rather than nested dictionaries.
+                   * User login 
+                   * Handles OAuth for you.
+                   * Load users locker.
+                   * More to come in future
                    DESC
 
   s.homepage     = "http://developer.7digital.com/resources/api-docs/"
