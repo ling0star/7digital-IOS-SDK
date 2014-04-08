@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://developer.7digital.com/resources/api-docs/"
 
-  s.license      = 'MIT'
+  s.license      = 'Apache'
   s.author             = { "7digital" => "support@7digital.com" }
 
   s.platform     = :ios, '7.0'
@@ -25,17 +25,10 @@ Pod::Spec.new do |s|
   s.preserve_path = 'StaticLib/*.a'
   s.ios.vendored_library = 'StaticLib/libSevenDigital.a'
 
-  # s.framework  = 'SevenDigital' #commented out till include works?
-  s.dependency 'Reachability', '~> 3.1'
-  s.dependency 'TouchXML', '~> 0.1'
-
-
   s.library   = 'xml2'
 
   s.requires_arc = true
 
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' , 'OTHER_LINKER_FLAGS' => '-ObjC'}
-  # s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFlightSDK"' }
-
 
 end
