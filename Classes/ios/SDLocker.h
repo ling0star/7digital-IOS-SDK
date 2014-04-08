@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SDRelease.h"
+#import "SDTrack.h"
+#import "SDArtist.h"
 
 @class SDAPIResponse;
 

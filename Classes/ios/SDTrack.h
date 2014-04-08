@@ -10,6 +10,12 @@
 
 @class SDArtist;
 
+/**
+ 
+ This is an object to represent a 7Digital Track
+ 
+ */
+
 @interface SDTrack : NSObject
 
 @property (assign, nonatomic) NSInteger trackId;

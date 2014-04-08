@@ -87,14 +87,14 @@
 - (void)loginWithUsername:(NSString*)username
                  password:(NSString*)password;
 
+
+/**
+ Logs a user out of their 7Digital account
+ 
+ .*/
+
 - (void)logout;
 
-
-
-//Register for a seven digital account.
-/**@brief sign up for a seven digital account. */
-//- (void)signUpWithUsername:(NSString *)username password:(NSString *)password withCompletion:(void(NSDictionary * response))completion;
-- (void)signUpWithUsername:(NSString *)username password:(NSString *)password withCompletion:(void(^)(BOOL success))completion;
 
 
 
