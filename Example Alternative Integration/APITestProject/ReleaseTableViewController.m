@@ -96,7 +96,7 @@
     [self cleanUp];
     
     SDTrack *track = [self.sdRelease.tracks objectAtIndex:indexPath.row];
-    NSURL *trackURL = [SDMedia urlForTrack:track mediaType:kSDMediaTypeStreamingLocker];
+    NSURL *trackURL = [SDMedia urlForTrack:track mediaType:kSDMediaTypeStreamingInternetRadio];
     NSLog(@"track url: %@", trackURL.relativeString);
     
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
