@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
 
   s.preserve_path = 'StaticLib/*.a'
-  s.ios.vendored_library = 'StaticLib/libSevenDigital.a'
+  # s.ios.vendored_library = 'StaticLib/libSevenDigital.a'
 
   # s.framework  = 'SevenDigital' #commented out till include works?
 
