@@ -40,7 +40,10 @@ it simply add the following line to your Podfile:
 4. Get your App Credentials at http://access.7digital.com/partnerprogram
 
 5. In your Application Delegate:
-	1. Import SevenDigital: #import "SevenDigital.h"
+	1. Import SevenDigital: 
+		
+			#import "SevenDigital.h"
+		
 	2. Launch the SevenDigital library with your App Credentials
 		In your application:didFinishLaunchingWithOptions: call
 		
