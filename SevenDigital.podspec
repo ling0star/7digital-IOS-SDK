@@ -26,12 +26,15 @@ Pod::Spec.new do |s|
   s.ios.vendored_library = 'StaticLib/libSevenDigital.a'
 
   # s.framework  = 'SevenDigital' #commented out till include works?
+  s.dependency 'Reachability', '~> 3.1'
+  s.dependency 'TouchXML', '~> 0.1'
 
-   s.library   = 'xml2'
 
-   s.requires_arc = true
+  s.library   = 'xml2'
 
-   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' , 'OTHER_LINKER_FLAGS' => '-ObjC'}
+  s.requires_arc = true
+
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' , 'OTHER_LINKER_FLAGS' => '-ObjC'}
   # s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFlightSDK"' }
 
 
