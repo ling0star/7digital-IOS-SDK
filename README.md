@@ -3,14 +3,14 @@
 ## Introduction
 If you’re looking to create new music websites and applications, or to integrate music into existing services, we offer the perfect solution. Using our API, you can use and license the 7digital technology platform, which includes millions of tracks that can be delivered as downloads or streams, in a variety of formats
 
-The 7Digital SDK allows you to interact with the 7Digital API, so you can download and stream 7Digital content in your iOS application.
+The 7digital SDK allows you to interact with the 7digital API, so you can download and stream 7digital content in your iOS application.
 
 Our Public API is completely free and open to everyone, which means that there are some usage and volume limits.  To get started you should sign up for the Public API at http://access.7digital.com/partnerprogram, and all the documentation for the features and functions is online at http://developer.7digital.com/.  Access to API methods marked as PREMIUM can be granted upon request, please get in touch with description of the service you’re building.
 
 If you plan to utilise our platform or global music licenses for commercial purposes, please contact our Sales Team at http://about.7digital.com/business/contact-the-b2b-team/.
 
 ## Requirements
-The 7Digital SDK requires iOS 7.0 or above, and the libxml2 library to run.
+The 7digital SDK requires iOS 7.0 or above, and the libxml2 library to run.
 
 ## Cocoapods Installation
 
@@ -49,7 +49,7 @@ it simply add the following line to your Podfile:
 		
 			[SevenDigital initializeWithConsumerKey:@"[Your Consumer Key]" andSecret:@"[Your Secret]"];
 		
-6. Many of the 7Digital API methods require the user to be logged in. Create your own 7Digital account at www.7digital.com
+6. Many of the 7digital API methods require the user to be logged in. Create your own 7digital account at www.7digital.com
 
 ## Author
 

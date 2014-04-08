@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
 
   s.name         = "SevenDigital"
   s.version      = "0.0.1"
-  s.summary      = "7Digital's iOS SDK for the api's."
+  s.summary      = "7digital's iOS SDK for the api's."
 
   s.description  = <<-DESC
-                   The 7Digital iOS SDK helps you get up and running with a project that uses the 7Digital api's.
+                   The 7digital iOS SDK helps you get up and running with a project that uses the 7digital api's.
 
                    * User login and handles OAuth for you.
                    * Conveniently returns tracks and releases as objects rather than nested dictionaries.
@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.homepage     = "http://developer.7digital.com/resources/api-docs/"
 
   s.license      = 'MIT'
-  s.author             = { "7Digital" => "support@7digital.com" }
+  s.author             = { "7digital" => "support@7digital.com" }
 
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/mmmbiscuits/7Digital-IOS-API.git" , :tag => 'v0.0.1' }
+  s.source       = { :git => "https://github.com/mmmbiscuits/7digital-IOS-API.git" , :tag => 'v0.0.1' }
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
   s.exclude_files = 'Classes/Exclude'
   s.public_header_files = 'Classes/**/*.h'
